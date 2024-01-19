@@ -1,5 +1,5 @@
 export default function Inicio() {
     return (
-        <h1>Olá, Mundo!</h1>
+        <h1>Seja bem vindo(a) ao Bit Fields :D</h1>
     )
 };

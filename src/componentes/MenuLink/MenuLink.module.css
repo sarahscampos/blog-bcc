@@ -2,11 +2,12 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: var(--cor-fonte-principal);
+    font-weight: 600;
     transition: .3s color;
 }
 
 .link_destacado {
     color: var(--cor-secundaria);
-    font-weight: 700;
+    font-weight: 600;
 }
 
