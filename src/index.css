@@ -7,11 +7,13 @@
 :root {
   --azul-escuro: #041833;
   --azul-medio: #1875E8;
-  --cor-fonte-principal: #041833;
+  --cor-fonte-principal: #000000;
   --cor-fonte-post: #444444;
+  --cor-secundaria: #b048f5;
   --branco: #FFF;
-  --fonte-principal: 'Raleway', sans-serif;
-  --fonte-secundaria: 'Playfair Display', sans-serif;
+  --fonte-principal: 'Rubik', sans-serif;
+  --fonte-secundaria: 'Montserrat', sans-serif;
+  --fonte-codigo: 'JetBrains Mono', monospace;
 
   font-family: var(--fonte-principal);
 }

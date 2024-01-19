@@ -2,8 +2,11 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: var(--cor-fonte-principal);
+    transition: .3s color;
 }
 
 .link_destacado {
-    text-decoration: underline;
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
+
