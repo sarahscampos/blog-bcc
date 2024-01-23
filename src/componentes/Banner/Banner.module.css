@@ -1,6 +1,6 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-color: #7b33ac;
+    background-color: var(--cor-background-roxo);
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,16 +21,14 @@
 }
  
 .imagens {
-    position: relative;
-    height: 406px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  
  
 .imagens > .logo {
-    position: absolute;
-    right: 7vw;
-    bottom: 2.2vw;
-    width: 25vw;
+    width: 50%;   
 }
  
 @media (max-width: 1100px) {    
@@ -47,15 +45,6 @@
         margin-bottom: 1.5rem;
     }
  
-    .imagens {
-        height: 338px;
-    }
-   
-   
-    .imagens > .circuloColorido {
-        right: 10vw;
-        width: 35vw;
-    }
 }
  
 @media (max-width: 744px) {
@@ -72,18 +61,4 @@
         margin-bottom: 2rem;
     }
  
-    .imagens {
-        height: 307px;
-    }
- 
-    .imagens > .logo {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-   
-    .imagens > .logo {
-        width: 240px;
-        transform: translate(-1.5rem, 0px);
-    }
 }

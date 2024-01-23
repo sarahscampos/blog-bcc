@@ -1,0 +1,25 @@
+.rodape {
+    background-color: var(--cor-background-roxo);
+    color: var(--branco);
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.rodape .link:hover {
+    text-decoration: underline;
+}
+
+.rodape .separador {
+    margin: 0 2rem;
+  
+}
+
+@media (max-width: 744px) {
+    .rodape .separador {
+        display: none;
+      
+    }
+}
