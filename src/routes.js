@@ -4,6 +4,7 @@ import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim'
 import Rodape from 'componentes/Rodape';
 import PaginaPadrao from 'componentes/PaginaPadrao';
+import Post from 'paginas/Post';
 
 function AppRoutes() {
   return (
@@ -13,6 +14,7 @@ function AppRoutes() {
         <Route path='/' element={<PaginaPadrao />}> {/*Rotas Aninhadas - Rota pai*/}
           <Route index element={<Inicio />} /> {/*Rota filha*/}
           <Route path='sobre-mim' element={<SobreMim />} /> {/*Rota filha*/}
+          <Route path='posts/:id' element={<Post />}/>
         </Route>
 
         
