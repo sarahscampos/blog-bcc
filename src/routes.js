@@ -15,10 +15,9 @@ function AppRoutes() {
         <Route path='/' element={<PaginaPadrao />}> {/*Rotas Aninhadas - Rota pai*/}
           <Route index element={<Inicio />} /> {/*Rota filha*/}
           <Route path='sobre-mim' element={<SobreMim />} /> {/*Rota filha*/}
-          <Route path='posts/:id' element={<Post />}/>
         </Route>
 
-        
+        <Route path='posts/:id/*' element={<Post />}/>
         <Route path='*' element={<NaoEncontrada />} />
       </Routes>  
       <Rodape />       

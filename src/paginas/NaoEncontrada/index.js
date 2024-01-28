@@ -4,7 +4,7 @@ import erro404 from 'assets/imagem_erro.jpg';
 import { useNavigate } from 'react-router-dom';
 
 export default function NaoEncontrada() {
-    const navegar = useNavigate();
+    const navegar = useNavigate(); //Hook useNavigate retorna uma função
 
     return( 
         <>
