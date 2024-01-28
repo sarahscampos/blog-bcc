@@ -5,6 +5,7 @@ import SobreMim from './paginas/SobreMim'
 import Rodape from 'componentes/Rodape';
 import PaginaPadrao from 'componentes/PaginaPadrao';
 import Post from 'paginas/Post';
+import NaoEncontrada from 'paginas/NaoEncontrada';
 
 function AppRoutes() {
   return (
@@ -18,7 +19,7 @@ function AppRoutes() {
         </Route>
 
         
-        <Route path='*' element={<div>ERRO 404 - PÁGINA NÃO ENCONTRADA ;-;</div>} />
+        <Route path='*' element={<NaoEncontrada />} />
       </Routes>  
       <Rodape />       
     </BrowserRouter>
